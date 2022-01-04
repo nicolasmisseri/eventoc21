@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style-type: none; }
+
+.navbar-brand {
+  color: #d0c59f !important; }
+
+#asistencia {
+  border-color: white;
+  color: white; }
+
+#asistencia:hover {
+  background-color: #d0c59f;
+  color: white; }
+
+#navbarSupportedContent,
+.navbar-brand {
+  font-size: 3vh;
+  padding-left: 2vh; }
+
+#navbarSupportedContent {
+  width: auto; }
+
+.principal {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background: URL("../images/vonharv.jpg") no-repeat;
+  padding-top: 4rem; }
+
+.principal .informacion-evento {
+  width: 30%;
+  height: 60vh;
+  backdrop-filter: blur(0.4rem);
+  padding: 1.5rem;
+  border: 2px solid #d0c59f;
+  color: white; }
+  .principal .informacion-evento button {
+    margin: 1rem 1rem 1rem 0; }
+
+#evento {
+  width: 100%;
+  background-color: #313133;
+  color: white; }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .principal {
+    padding-top: 4rem; }
+    .principal .informacion-evento {
+      width: 100%; } }
