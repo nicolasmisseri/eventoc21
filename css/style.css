@@ -7,6 +7,9 @@ a {
   text-decoration: none;
   color: white; }
 
+button a:hover {
+  color: white !important; }
+
 li {
   list-style-type: none; }
 
@@ -18,8 +21,9 @@ li {
   color: white; }
 
 #asistencia:hover {
-  background-color: #d0c59f;
-  color: white; }
+  background-color: #d0c59f; }
+  #asistencia:hover a:hover {
+    color: white; }
 
 #navbarSupportedContent,
 .navbar-brand {
@@ -31,7 +35,6 @@ li {
 
 .principal {
   width: 100%;
-  height: 100vh;
   background-size: cover;
   background: URL("../images/vonharv.jpg") no-repeat;
   padding-top: 4rem; }
@@ -39,7 +42,6 @@ li {
 .principal .informacion-evento {
   margin-bottom: 4vw;
   width: 30%;
-  height: 60vh;
   backdrop-filter: blur(0.4rem);
   padding: 1.5rem;
   border: 2px solid #d0c59f;
@@ -89,6 +91,8 @@ li {
   #ubicacion h3 {
     font-size: 2rem;
     color: #d0c59f; }
+  #ubicacion iframe {
+    width: 100%; }
 
 footer {
   width: 100%;
@@ -101,11 +105,11 @@ footer {
     width: 20%;
     height: 10rem; }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1600px) {
   .principal {
     padding-top: 4rem; }
     .principal .informacion-evento {
-      width: 100%; }
+      width: 100% !important; }
   #evento,
   .evento {
     padding: 1rem; }
@@ -121,17 +125,15 @@ footer {
     padding-top: 2rem;
     text-align: center; }
     #video iframe {
-      width: 100%;
-      height: 15rem; }
+      display: none; }
   #countdown {
     width: 100%;
     background: URL("../images/vonharv3.jpg") no-repeat;
     text-align: center; }
     #countdown #demo {
-      text-align: center;
-      font-size: 5rem; }
+      text-align: center; }
       #countdown #demo h3 {
         color: white !important; }
-  #ubicacion iframe {
-    width: 100%;
-    height: 30rem; } }
+  #ubicacion {
+    display: flex;
+    flex-wrap: wrap; } }

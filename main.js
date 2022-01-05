@@ -1,5 +1,3 @@
-var btn_asistencia = document.getElementsByTagName("button");
-
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 24, 2022 20:00:00").getTime();
 
