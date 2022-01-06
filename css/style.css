@@ -60,9 +60,9 @@ li {
   text-align: center; }
   #data-texto h3 {
     color: #d0c59f;
-    font-size: 3rem; }
-  #data-texto p {
     font-size: 2rem; }
+  #data-texto p {
+    font-size: 1.5rem; }
 
 #video {
   padding-top: 2rem;
@@ -76,9 +76,12 @@ li {
   width: 100%;
   height: 40rem;
   background: URL("../images/vonharv3.jpg") no-repeat; }
+  #countdown span {
+    color: white;
+    padding-top: 3em; }
   #countdown #demo {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3em;
     color: white !important;
     justify-content: center;
     padding-top: 6rem; }
@@ -124,8 +127,6 @@ footer {
   #video {
     padding-top: 2rem;
     text-align: center; }
-    #video iframe {
-      display: none; }
   #countdown {
     width: 100%;
     background: URL("../images/vonharv3.jpg") no-repeat;
@@ -137,3 +138,12 @@ footer {
   #ubicacion {
     display: flex;
     flex-wrap: wrap; } }
+
+@media (min-width: 320px) and (max-width: 1600px) {
+  #countdown #demo {
+    text-align: center;
+    font-size: 7vh; }
+  #evento p {
+    font-size: 3vh; }
+  footer p {
+    width: 100em; } }

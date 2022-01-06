@@ -23,9 +23,9 @@ var x = setInterval(function () {
     hours +
     " horas " +
     minutes +
-    " minutos  " +
+    " minutos  y " +
     seconds +
-    " segundos!";
+    " segundos en:";
 
   // If the count down is finished, write some text
   if (distance < 0) {
