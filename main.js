@@ -19,9 +19,9 @@ var x = setInterval(function () {
   document.getElementById("demo").innerHTML =
     "Nos vemos en " +
     days +
-    " días  " +
+    " días,  " +
     hours +
-    " horas " +
+    " horas, " +
     minutes +
     " minutos  y " +
     seconds +

@@ -103,10 +103,11 @@ footer {
   color: white;
   padding: 3rem; }
   footer p {
-    font-family: "Playfair Display", serif !important; }
+    font-size: 0.8rem; }
   footer img {
     width: 20%;
-    height: 10rem; }
+    height: 6rem;
+    padding-top: 1rem; }
 
 @media (min-width: 320px) and (max-width: 1600px) {
   .principal {
