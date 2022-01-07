@@ -1,7 +1,22 @@
+@font-face {
+  font-family: CuerpoDeTexto;
+  src: url(/cuerpoDeTexto.otf); }
+
+@font-face {
+  font-family: "Titulares";
+  src: url(/titulares.ttf); }
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", serif; }
+  font-family: CuerpoDeTexto; }
+  * h1,
+  * h2,
+  * h3,
+  * h4,
+  * h5,
+  * h6 {
+    font-family: Titulares; }
 
 a {
   text-decoration: none;
@@ -13,8 +28,8 @@ button a:hover {
 li {
   list-style-type: none; }
 
-.navbar-brand {
-  color: #d0c59f !important; }
+#sello {
+  width: 7rem; }
 
 #asistencia {
   border-color: white;
@@ -36,7 +51,7 @@ li {
 .principal {
   width: 100%;
   background-size: cover;
-  background: URL("../images/vonharv.jpg") no-repeat;
+  background: URL("../images/hero home.jpg") no-repeat;
   padding-top: 4rem; }
 
 .principal .informacion-evento {

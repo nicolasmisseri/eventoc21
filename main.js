@@ -17,7 +17,6 @@ var x = setInterval(function () {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML =
-    "Nos vemos en " +
     days +
     " días,  " +
     hours +
@@ -25,7 +24,7 @@ var x = setInterval(function () {
     minutes +
     " minutos  y " +
     seconds +
-    " segundos en:";
+    " segundos";
 
   // If the count down is finished, write some text
   if (distance < 0) {
